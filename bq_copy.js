@@ -1,5 +1,5 @@
 var snip=document.querySelector("blockquote");
-snip.insertAdjacentHTML('afterbegin',"<a href='#' class='fa fa-files-o' style='float:right;text-decoration:none;'></a> ");
+snip.insertAdjacentHTML('afterbegin',"<a href='' class='fa fa-files-o' style='float:right;text-decoration:none;'></a> ");
 var copyBtn = document.querySelector('.fa-files-o');
 copyBtn.addEventListener('click', function(event) {
   // Select the text  
