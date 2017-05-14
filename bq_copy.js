@@ -1,9 +1,9 @@
-var snip=document.querySelector(".tr_bq");
+var snip=document.querySelector("blockquote");
 snip.insertAdjacentHTML('afterbegin',"<a href='#' class='fa fa-files-o' style='float:right;text-decoration:none;'></a> ");
 var copyBtn = document.querySelector('.fa-files-o');
 copyBtn.addEventListener('click', function(event) {
   // Select the text  
-  var copybq = document.querySelector('.tr_bq');
+  var copybq = document.querySelector('blockquote');
   var range = document.createRange();
   range.selectNode(copybq);
   window.getSelection().addRange(range);
